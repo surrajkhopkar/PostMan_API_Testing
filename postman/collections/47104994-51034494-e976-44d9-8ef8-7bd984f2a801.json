@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "47104994-51034494-e976-44d9-8ef8-7bd984f2a801",
+		"name": "SSK_Maps",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AddPlace",
+			"id": "47104994-444827cb-dbd1-47e8-8ab2-566b0ad86276",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"location\": {\n    \"lat\": -38.383494,\n    \"lng\": 33.427362\n  },\n  \"accuracy\": 50,\n  \"name\": \"Frontline house\",\n  \"phone_number\": \"(+91) 983 893 3937\",\n  \"address\": \"29, side layout, cohen 09\",\n  \"types\": [\n    \"shoe park\",\n    \"shop\"\n  ],\n  \"website\": \"http://rahulshettyacademy.com\",\n  \"language\": \"French-IN\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://rahulshettyacademy.com/maps/api/place/add/json",
+					"protocol": "https",
+					"host": [
+						"rahulshettyacademy",
+						"com"
+					],
+					"path": [
+						"maps",
+						"api",
+						"place",
+						"add",
+						"json"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "qaclick123",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
