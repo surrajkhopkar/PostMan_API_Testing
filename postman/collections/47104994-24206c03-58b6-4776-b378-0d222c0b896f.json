@@ -12,8 +12,35 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Learn PostMan\",\n    \"isbn\": \"rtyy\",\n    \"aisle\": \"888\",\n    \"author\": \"Suraj\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://rahulshettyacademy.com/Library/Addbook.php",
+					"protocol": "https",
+					"host": [
+						"rahulshettyacademy",
+						"com"
+					],
+					"path": [
+						"Library",
+						"Addbook.php"
+					]
+				}
 			},
 			"response": []
 		},
