@@ -18,7 +18,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "GetBook",
 			"id": "47104994-f9bf33d4-0bb8-43c6-9cdf-9066411c66df",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
