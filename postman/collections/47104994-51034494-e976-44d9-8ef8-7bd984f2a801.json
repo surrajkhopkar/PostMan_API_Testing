@@ -56,7 +56,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "GetPlace",
 			"id": "47104994-c2ef9247-9ea7-4a0c-8a8f-18b0ddb0b223",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
