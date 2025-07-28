@@ -116,6 +116,15 @@
 			"request": {
 				"method": "DELETE",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"place_id\":\"928b51f64aed18713b0d164d9be8d67f\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
 					"raw": "https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123",
 					"protocol": "https",
@@ -133,8 +142,7 @@
 					"query": [
 						{
 							"key": "key",
-							"value": "qaclick123",
-							"type": "text"
+							"value": "qaclick123"
 						}
 					]
 				}
