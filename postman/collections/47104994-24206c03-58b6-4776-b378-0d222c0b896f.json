@@ -87,7 +87,7 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": [
 					{
 						"key": "Content-Type",
@@ -95,8 +95,17 @@
 						"type": "text"
 					}
 				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \n\"ID\" : \"rtyy888\"\n \n} \n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
-					"raw": "https://rahulshettyacademy.com/Library/DeleteBook.php?ID=rtyy888",
+					"raw": "https://rahulshettyacademy.com//Library/DeleteBook.php",
 					"protocol": "https",
 					"host": [
 						"rahulshettyacademy",
@@ -106,13 +115,6 @@
 						"",
 						"Library",
 						"DeleteBook.php"
-					],
-					"query": [
-						{
-							"key": "ID",
-							"value": "rtyy888",
-							"type": "text"
-						}
 					]
 				}
 			},
