@@ -60,7 +60,7 @@
 					}
 				],
 				"url": {
-					"raw": "https://rahulshettyacademy.com/Library/GetBook.php?AuthorName=Suraj",
+					"raw": "https://rahulshettyacademy.com/Library/GetBook.php?ID=rtyy888",
 					"protocol": "https",
 					"host": [
 						"rahulshettyacademy",
@@ -72,8 +72,8 @@
 					],
 					"query": [
 						{
-							"key": "AuthorName",
-							"value": "Suraj"
+							"key": "ID",
+							"value": "rtyy888"
 						}
 					]
 				}
