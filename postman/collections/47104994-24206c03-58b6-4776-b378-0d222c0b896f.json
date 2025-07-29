@@ -33,7 +33,8 @@
 							"//SK34656",
 							"",
 							"const code = pm.globals.get(\"companyCode\")",
-							"const val = pm.variables.replaceIn('{{randomInt}}')"
+							"const val = pm.variables.replaceIn('{{randomInt}}')",
+							"pm.collectionVariables.set(\"isbn\",\"code+val\")"
 						],
 						"type": "text/javascript",
 						"packages": {}
