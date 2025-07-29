@@ -13,9 +13,11 @@
 					"script": {
 						"id": "7351dea1-6468-4e88-9a02-8a8338a694c8",
 						"exec": [
+							"const jsonData = pm.response.json()",
 							"pm.test(\"Validate status code is 200\", function()",
 							"{",
 							"    pm.response.to.have.status(200)",
+							"    pm.expect(jsonData).have.property(\"Msg\")",
 							"});"
 						],
 						"type": "text/javascript",
