@@ -30,11 +30,9 @@
 					}
 				},
 				"url": {
-					"raw": "https://rahulshettyacademy.com/Library/Addbook.php",
-					"protocol": "https",
+					"raw": "{{base_url}}/Library/Addbook.php",
 					"host": [
-						"rahulshettyacademy",
-						"com"
+						"{{base_url}}"
 					],
 					"path": [
 						"Library",
