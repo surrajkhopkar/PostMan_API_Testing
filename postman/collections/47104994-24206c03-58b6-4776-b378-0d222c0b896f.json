@@ -105,12 +105,13 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}//Library/DeleteBook.php",
+					"raw": "https://rahulshettyacademy.com/Library/DeleteBook.php",
+					"protocol": "https",
 					"host": [
-						"{{baseURL}}"
+						"rahulshettyacademy",
+						"com"
 					],
 					"path": [
-						"",
 						"Library",
 						"DeleteBook.php"
 					]
