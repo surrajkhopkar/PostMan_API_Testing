@@ -101,11 +101,9 @@
 					}
 				},
 				"url": {
-					"raw": "https://rahulshettyacademy.com/Library/DeleteBook.php",
-					"protocol": "https",
+					"raw": "{{base_url}}/Library/DeleteBook.php",
 					"host": [
-						"rahulshettyacademy",
-						"com"
+						"{{base_url}}"
 					],
 					"path": [
 						"Library",
