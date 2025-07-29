@@ -58,11 +58,9 @@
 					}
 				],
 				"url": {
-					"raw": "https://rahulshettyacademy.com/Library/GetBook.php?ID=rtyy18881",
-					"protocol": "https",
+					"raw": "{{base_url}}/Library/GetBook.php?ID=rtyy18881",
 					"host": [
-						"rahulshettyacademy",
-						"com"
+						"{{base_url}}"
 					],
 					"path": [
 						"Library",
