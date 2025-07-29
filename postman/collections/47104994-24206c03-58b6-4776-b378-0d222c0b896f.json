@@ -24,6 +24,19 @@
 						"type": "text/javascript",
 						"packages": {}
 					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6d64c9e2-5786-46aa-8dc0-7a9c70500e7b",
+						"exec": [
+							"//SK34656",
+							"",
+							"pm.globals.get(\"companyCode\")"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
 				}
 			],
 			"id": "47104994-697ca2cf-aaf5-4014-9e37-f18f17bb3546",
