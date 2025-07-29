@@ -18,6 +18,7 @@
 							"{",
 							"    pm.response.to.have.status(200)",
 							"    pm.expect(jsonData).have.property(\"Msg\")",
+							"    pm.expect(jsonData.Msg).to.eql(\"successfully added\")",
 							"});"
 						],
 						"type": "text/javascript",
