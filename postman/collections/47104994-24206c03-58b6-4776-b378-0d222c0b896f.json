@@ -32,7 +32,8 @@
 						"exec": [
 							"//SK34656",
 							"",
-							"const code = pm.globals.get(\"companyCode\")"
+							"const code = pm.globals.get(\"companyCode\")",
+							"const val = pm.variables.replaceIn('{{randomInt}}')"
 						],
 						"type": "text/javascript",
 						"packages": {}
