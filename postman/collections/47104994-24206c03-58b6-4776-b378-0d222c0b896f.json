@@ -30,11 +30,9 @@
 					}
 				},
 				"url": {
-					"raw": "https://rahulshettyacademy.com/Library/Addbook.php",
-					"protocol": "https",
+					"raw": "{{baseURL}}/Library/Addbook.php",
 					"host": [
-						"rahulshettyacademy",
-						"com"
+						"{{baseURL}}"
 					],
 					"path": [
 						"Library",
@@ -60,11 +58,9 @@
 					}
 				],
 				"url": {
-					"raw": "https://rahulshettyacademy.com/Library/GetBook.php?ID=rtyy888",
-					"protocol": "https",
+					"raw": "{{baseURL}}/Library/GetBook.php?ID=rtyy888",
 					"host": [
-						"rahulshettyacademy",
-						"com"
+						"{{baseURL}}"
 					],
 					"path": [
 						"Library",
@@ -105,11 +101,9 @@
 					}
 				},
 				"url": {
-					"raw": "https://rahulshettyacademy.com//Library/DeleteBook.php",
-					"protocol": "https",
+					"raw": "{{baseURL}}//Library/DeleteBook.php",
 					"host": [
-						"rahulshettyacademy",
-						"com"
+						"{{baseURL}}"
 					],
 					"path": [
 						"",
@@ -119,6 +113,13 @@
 				}
 			},
 			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "https://rahulshettyacademy.com",
+			"type": "default"
 		}
 	]
 }
