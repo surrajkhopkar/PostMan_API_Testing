@@ -32,7 +32,7 @@
 						"exec": [
 							"//SK34656",
 							"",
-							"pm.globals.get(\"companyCode\")"
+							"const code = pm.globals.get(\"companyCode\")"
 						],
 						"type": "text/javascript",
 						"packages": {}
