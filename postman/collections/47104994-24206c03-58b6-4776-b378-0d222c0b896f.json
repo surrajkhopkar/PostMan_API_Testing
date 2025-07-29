@@ -40,7 +40,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"Learn PostMan1\",\n    \"isbn\": \"rtyy1\",\n    \"aisle\": \"8881\",\n    \"author\": \"Suraj\"\n}",
+					"raw": "{\n    \"name\": \"Learn PostMan2\",\n    \"isbn\": \"rtyy2\",\n    \"aisle\": \"8882\",\n    \"author\": \"Suraj\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
